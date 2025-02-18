@@ -1,0 +1,5 @@
+{
+    "KC": "Your task is to value properties in King County, Washington, USA. Properties will be described by a number of variables. Please use this information to predict the price in USD. Please answer with the price only and use the format 'price USD'.",
+    "beijing": "Your task is to value properties in Beijing, China. Properties will be described by a number of variables. Please use this information to predict the price in CNY. Please answer with the price only and use the format 'price CNY'.",
+    "barcelona": "Your task is to value properties in Barcelona, Spain. Properties will be described by a number of variables. Please use this information to predict the price in EUR. Please answer with the price only and use the format 'price EUR'."
+}

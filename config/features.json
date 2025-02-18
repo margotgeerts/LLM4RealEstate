@@ -1,0 +1,11 @@
+{
+    "KC": {
+        "hedonic": ["bedrooms","bathrooms","sqft_living","sqft_lot","floors","waterfront","view","condition","grade","sqft_above","yr_built"]
+    },
+    "beijing": {
+        "hedonic": ["square","livingRoom","drawingRoom","kitchen","bathRoom","floor","buildingType","constructionTime","renovationCondition","buildingStructure","ladderRatio","elevator","fiveYearsProperty","subway"]
+    },
+    "barcelona": {
+        "hedonic": ["CONSTRUCTEDAREA","ROOMNUMBER","BATHNUMBER","HASTERRACE","HASLIFT","HASAIRCONDITIONING","AMENITYID","HASPARKINGSPACE","ISPARKINGSPACEINCLUDEDINPRICE","PARKINGSPACEPRICE","HASNORTHORIENTATION","HASSOUTHORIENTATION","HASEASTORIENTATION","HASWESTORIENTATION","HASBOXROOM","HASWARDROBE","HASSWIMMINGPOOL","HASDOORMAN","HASGARDEN","ISDUPLEX","ISSTUDIO","ISINTOPFLOOR","CONSTRUCTIONYEAR","FLOORCLEAN","FLATLOCATIONID","CADCONSTRUCTIONYEAR","CADMAXBUILDINGFLOOR","CADDWELLINGCOUNT","CADASTRALQUALITYID","BUILTTYPEID_1","BUILTTYPEID_2","BUILTTYPEID_3"]
+    }
+}
