@@ -51,7 +51,7 @@ python scripts/baselines.py --dataset barcelona
 python scripts/baselines_hedonic.py --dataset barcelona
 python scripts/baselines_knn.py --dataset barcelona
 ```
-To reproduce the results with Ollama, first install Ollama according to the instructions in the [Ollama website](ollama.com), then run the following command:
+To reproduce the results with Ollama, first install Ollama according to the instructions in the [Ollama website](https://ollama.com), then run the following command:
 ```bash
 python scripts/gather_prices_ollama.py --dataset barcelona --model llama3.2 --output_file results/barcelona_ollama_prices.csv 
 ```
