@@ -57,7 +57,9 @@ Arguments:
 
 To reproduce the results with Ollama, first install Ollama according to the instructions in the [Ollama website](https://ollama.com), then run the following command:
 ```bash
-python scripts/gather_prices_ollama.py --dataset barcelona --model llama3.2 --output_file results/barcelona_ollama_prices.csv 
+python scripts/gather_prices_ollama.py --dataset barcelona --model llama3.2 --output_file results/barcelona_ollama.csv 
+python scripts/gather_intervals_ollama.py --dataset barcelona --model llama3.2 --output_file results/barcelona_ollama.csv
+python scripts/gather_features_ollama.py --dataset barcelona --model llama3.2 --output_file results/barcelona_ollama.csv
 ```
 Arguments:
 - `--dataset`: the dataset to use, options are `barcelona`, `beijing`, and `KC`.
