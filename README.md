@@ -51,16 +51,29 @@ python scripts/baselines.py --dataset barcelona
 python scripts/baselines_hedonic.py --dataset barcelona
 python scripts/baselines_knn.py --dataset barcelona
 ```
+Arguments:
+- `--dataset`: the dataset to use, options are `barcelona`, `beijing`, and `KC`.
+
+
 To reproduce the results with Ollama, first install Ollama according to the instructions in the [Ollama website](https://ollama.com), then run the following command:
 ```bash
 python scripts/gather_prices_ollama.py --dataset barcelona --model llama3.2 --output_file results/barcelona_ollama_prices.csv 
 ```
-Or using the `10 ex. mixed` prompt strategy:
+Arguments:
+- `--dataset`: the dataset to use, options are `barcelona`, `beijing`, and `KC`.
+- `--model`: the Ollama model to use, options are `llama3.2` and `deepseek-r1:7b`.
+- `--output_file`: the output file to save the results to.
+- `--examples`: the number of examples to use for the prompt strategy, options are `0`, `3`, `10`.
+- `--example_selection`: the prompt strategy to use, options are `geo`, `hedonic`, `mixed`.
+- `--context`: whether to use context or not, options are `False`, `True`.
+
+
+e.g. using the `10 ex. mixed` prompt strategy:
 ```bash
 python scripts/gather_prices_ollama.py --dataset barcelona --model llama3.2 --output_file results/barcelona_ollama_prices_prompt_strategy.csv --examples 10 --example_selection mixed
 ```
 
-To reproduce the results with OpenAI, make sure you have an API key and run the following command:
+To reproduce the results with OpenAI, make sure you have an API key and run the following command with the same arguments as above:
 ```bash
 python scripts/gather_prices_openai.py --dataset barcelona --model gpt-4o-mini --output_file results/barcelona_openai_prices.csv --key <API_KEY>
 ```
