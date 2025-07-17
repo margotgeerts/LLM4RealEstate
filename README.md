@@ -1,9 +1,10 @@
-# On the Performance of LLMs for Real Estate Appraisal </br><sub><sub>*Margot Geerts, Manon Reusens, Bart Baesens, Seppe vanden Broucke, Jochen De Weerdt* [[*2025*]]([link-to-paper](https://arxiv.org/abs/2506.11812))</sub></sub>
+# On the Performance of LLMs for Real Estate Appraisal </br><sub><sub>*Margot Geerts, Manon Reusens, Bart Baesens, Seppe vanden Broucke, Jochen De Weerdt* [[*2025*]](https://arxiv.org/abs/2506.11812)</sub></sub>
 This study explores the potential of Large Language Models (LLMs) in real estate appraisal, leveraging prompt optimization with in-context learning (ICL). This project evaluates various prompting strategies, and investigates LLMs' ability to provide a viable alternative to traditional machine learning (ML) models, in terms of prediction accuracy, uncertainty estimation and interpretability.
 
 ## Repository structure
 This repository is organised as follows:
 ```bash
+.
 ├── config/
 │    ├── barcelona_test_indices.txt: the test indices for the Barcelona dataset
 │    ├── beijing_test_indices.txt: the test indices for the Beijing dataset
