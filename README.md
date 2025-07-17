@@ -1,5 +1,5 @@
-# *On the Performance of LLMs for Real Estate Appraisal* 🏡📊
-LLM4RealEstate explores the potential of Large Language Models (LLMs) in real estate appraisal, leveraging prompt optimization with in-context learning (ICL). This project evaluates various prompting strategies, and investigates LLMs' ability to provide a viable alternative to traditional machine learning (ML) models, in terms of prediction accuracy, uncertainty estimation and interpretability.
+# On the Performance of LLMs for Real Estate Appraisal </br><sub><sub>*Margot Geerts, Manon Reusens, Bart Baesens, Seppe vanden Broucke, Jochen De Weerdt* [[*2025*]]([link-to-paper](https://arxiv.org/abs/2506.11812))</sub></sub>
+This study explores the potential of Large Language Models (LLMs) in real estate appraisal, leveraging prompt optimization with in-context learning (ICL). This project evaluates various prompting strategies, and investigates LLMs' ability to provide a viable alternative to traditional machine learning (ML) models, in terms of prediction accuracy, uncertainty estimation and interpretability.
 
 ## Repository structure
 This repository is organised as follows:
@@ -80,3 +80,13 @@ To reproduce the results with OpenAI, make sure you have an API key and run the 
 python scripts/gather_prices_openai.py --dataset barcelona --model gpt-4o-mini --output_file results/barcelona_openai_prices.csv --key <API_KEY>
 ```
 
+## Citing
+
+Please cite our paper and/or code as follows:
+```bibtex
+@article{Geerts2025LLMsRealEstate,
+  title={On the Performance of LLMs for Real Estate Appraisal},
+  author={Margot Geerts and Manon Reusens and Bart Baesens and Seppe {vanden Broucke} and Jochen {De Weerdt}},
+  journal={arXiv preprint arXiv:2506.11812},
+  year={2025}
+}
